@@ -1,0 +1,25 @@
+.menu {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin: 20px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+}
+a {
+  text-decoration: none;
+  list-style: none;
+  border: 2px solid white;
+  border-radius: 5px;
+  color: white;
+  padding: 15px;
+  margin: 10px;
+  transition: all 400ms ease-in-out;
+}
+a:hover {
+  background-color: #b7b7a4;
+  border: 5px solid white;
+}
